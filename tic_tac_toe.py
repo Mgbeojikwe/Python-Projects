@@ -1,3 +1,14 @@
+"""
+1) This source code generates a command line version of the Tic-Tac_Toe game.
+2) Four classes(Board, HumanPalyer, ComputerPlayer, TicTacToe) were creted with Baord being the base class, HumanPlayer and ComputerPlayer being 
+the child class and class TicTacToe being the grand-child class
+3)The check() method of TicTacToe class, has the operations that determines the winner. NumPy fucntion were used in this method
+4) the entire game was called with a single method:  game()
+
+"""
+
+
+
 import random
 import numpy as np
 from itertools import chain
