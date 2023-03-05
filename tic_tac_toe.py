@@ -128,14 +128,16 @@ class TicTacToe(Human_player,ComputerPlayer):
             print("you losed")
             return True
 
-
+        if len(Board.positions) <= 1:
+            print("It is a draw")
+            return True
 
 
     def game(self):
         
         result=False
         
-        while (len(self.positions)>0 and result !=True  ):
+        while (len(Board.positions)>0 and result !=True  ):
         
 
             Human.play()
